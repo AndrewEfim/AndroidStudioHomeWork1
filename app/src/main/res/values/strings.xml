@@ -3,4 +3,11 @@
     <string name="two">Two</string>
     <string name="button">Change</string>
     <string name="one">One</string>
+    <string name="button1">HW1</string>
+    <string name="button2">HW2</string>
+    <string name="button3">HW3</string>
+    <string name="button4">HW4</string>
+    <string name="button5">HW5</string>
+
+
 </resources>

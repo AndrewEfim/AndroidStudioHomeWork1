@@ -8,5 +8,17 @@
     <color name="button">#a4a7cc</color>
     <color name="textonecolor">#200101</color>
     <color name="texttwocolor">#ecd610</color>
+    <color name="colorRed">#fa0212</color>
+    <color name="colorWhite">#f8f8fa</color>
+    <color name="colorGreen">#01bc0d</color>
+    <color name="colorBlue">#1515dc</color>
+    <color name="colorYelow">#eff703</color>
+    <color name="menuButtonColor">#585c6b</color>
+    <color name="menuBackgroundColor">#111111</color>
+    <color name="menuButtonTextColor">#d2095d</color>
+
+
+
+
 
 </resources>
