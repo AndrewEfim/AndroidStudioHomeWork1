@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -11,6 +11,8 @@
         <item name="android:textColor">@color/menuButtonTextColor</item>
         <item name="android:background">@drawable/new_button</item>
         <item name="android:textSize">25sp</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop" tools:ignore="NewApi">@color/colorRed</item>
+
     </style>
 
 </resources>
