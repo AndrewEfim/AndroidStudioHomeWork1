@@ -1,4 +1,4 @@
-package com.example.andreii.firstaplication;
+package com.example.andreii.firstaplication.HW1;
 
 import android.graphics.drawable.Drawable;
 import android.os.Build;

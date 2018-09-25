@@ -8,6 +8,13 @@
     <string name="button3">HW3</string>
     <string name="button4">HW4</string>
     <string name="button5">HW5</string>
+    <string name="button3A">Download</string>
+
+    <string name="textview">TextView</string>
+    <string name="edittext">EditText</string>
+    <string name="textview3">Past url link</string>
+    <string name="urlpicture">https://clips-zone.ru/content/images/albums/2/album_300_590e95bd-8218-4357-8593-0a1dc317a4b5.jpg</string>
+    <string name="addlinkButton3A">Autolink</string>
 
 
 </resources>

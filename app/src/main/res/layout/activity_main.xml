@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:background="@color/menuButtonTextColor"
+    android:background="@color/mainBackround"
     >
     <Button
         style="@style/MyStyle"
@@ -31,7 +31,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_gravity="start"
-        android:background="#f3111111"
         android:text="@string/button3"
         android:layout_alignParentRight="true"
         />

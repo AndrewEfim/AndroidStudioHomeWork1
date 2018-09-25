@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackround"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editText3A"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="25dp"
+        android:layout_gravity="top"
+        android:hint="enter uri"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/button3A"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/new_button"
+        android:text="@string/button3A"
+        android:textColor="@color/mainBackround"
+
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/addlink3A"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/addlinkButton3A"
+        android:background="@color/backgroundFoThirdActivity"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar3A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/imageView3A"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"/>
+
+</LinearLayout>

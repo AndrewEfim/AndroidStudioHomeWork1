@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="mainBackround">#3b93ae</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#e9cd19</color>
     <color name="one">#df0707</color>
     <color name="two">#1fe211</color>
     <color name="button">#a4a7cc</color>
@@ -14,11 +15,8 @@
     <color name="colorBlue">#1515dc</color>
     <color name="colorYelow">#eff703</color>
     <color name="menuButtonColor">#585c6b</color>
-    <color name="menuBackgroundColor">#111111</color>
+    <color name="menuButtonBackgroundColor">#111111</color>
     <color name="menuButtonTextColor">#d2095d</color>
-
-
-
-
-
+    <color name="backgroundFoThirdActivity">#b61256</color>
+    <color name="colorBlack">#130201</color>
 </resources>

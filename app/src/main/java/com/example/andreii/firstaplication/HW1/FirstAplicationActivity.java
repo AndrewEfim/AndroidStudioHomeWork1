@@ -1,4 +1,4 @@
-package com.example.andreii.firstaplication;
+package com.example.andreii.firstaplication.HW1;
 
 import android.app.Activity;
 import android.os.Build;
@@ -8,6 +8,8 @@ import android.support.annotation.RequiresApi;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.andreii.firstaplication.R;
 
 public class FirstAplicationActivity extends Activity implements View.OnClickListener {
     @Override
