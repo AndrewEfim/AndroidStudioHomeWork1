@@ -6,7 +6,9 @@
     <string name="button1">HW1</string>
     <string name="button2">HW2</string>
     <string name="button3">HW3</string>
-    <string name="button4">HW4</string>
+    <string name="button4_1">HW4_1</string>
+    <string name="button4_2">HW4_2</string>
+
     <string name="button5">HW5</string>
     <string name="button3A">Download</string>
 

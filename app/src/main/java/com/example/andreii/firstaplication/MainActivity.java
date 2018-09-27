@@ -10,6 +10,8 @@ import android.widget.Button;
 import com.example.andreii.firstaplication.HW1.FirstAplicationActivity;
 import com.example.andreii.firstaplication.HW2.SecondActivity;
 import com.example.andreii.firstaplication.HW3.ThirdActivity;
+import com.example.andreii.firstaplication.HW4.FourthActivity;
+import com.example.andreii.firstaplication.HW4.FourthActivityPtTwo;
 
 public class MainActivity extends Activity {
     @Override
@@ -20,7 +22,8 @@ public class MainActivity extends Activity {
         Button button1 = findViewById(R.id.button1);
         Button button2 = findViewById(R.id.button2);
         Button button3 = findViewById(R.id.button3);
-        Button button4 = findViewById(R.id.button4);
+        Button button4_1 = findViewById(R.id.button4_1);
+        Button button4_2 = findViewById(R.id.button4_2);
         Button button5 = findViewById(R.id.button5);
 
         button1.setOnClickListener(new View.OnClickListener() {
@@ -28,6 +31,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                  Intent intent = new Intent(MainActivity.this,FirstAplicationActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.animation_one,R.anim.animation_two);
             }
         });
 
@@ -36,6 +40,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,SecondActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.animation_one,R.anim.animation_two);
             }
         });
 
@@ -44,6 +49,24 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ThirdActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.animation_one,R.anim.animation_two);
+            }
+        });
+
+        button4_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FourthActivity.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.animation_one,R.anim.animation_two);
+            }
+        });
+        button4_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FourthActivityPtTwo.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.animation_one,R.anim.animation_two);
             }
         });
 
