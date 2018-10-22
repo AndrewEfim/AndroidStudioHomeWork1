@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundFoThirdActivity"
+    android:orientation="vertical">
+    <fragment
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/fragment_one_list_id"
+        android:name="com.example.andreii.firstaplication.HW7.hw7v2.ListFragment"/>
+
+    <fragment
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/fragment_two_detail_id"
+        android:name="com.example.andreii.firstaplication.HW7.hw7v2.DetailFragment"/>
+</LinearLayout>

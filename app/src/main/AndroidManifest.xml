@@ -13,8 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <service android:name=".HW6.MyService"
-            android:enabled="true"/>
+        <service
+            android:name=".HW6.MyService"
+            android:enabled="true" />
 
 
         <activity android:name=".MainActivity">
@@ -30,8 +31,15 @@
         <activity android:name=".HW4.FourthActivityPtTwo"></activity>
         <activity android:name=".HW5.FiveActivity"></activity>
         <activity android:name=".HW6.SixActivity"></activity>
+        <activity
+            android:name=".HW7.hw7v1.SevenActivityMain"
+            android:windowSoftInputMode="stateVisible|adjustNothing"></activity>
+        <activity android:name=".HW7.hw7v1.SevenActivityFull"></activity>
+        <activity android:name=".HW7.hw7v1.SevenActivityAdd"></activity>
+        <activity android:name=".HW7.hw7v2.MainFragmentActivity"></activity>
+        <activity android:name=".HW7.hw7v2.FullActivity"></activity>
 
-
+        <!--android:windowSoftInputMode="stateVisible|adjustPan"/>-->
 
 
     </application>
