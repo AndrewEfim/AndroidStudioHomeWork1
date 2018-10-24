@@ -9,7 +9,7 @@
     <EditText
         android:id="@+id/edittext7AFragment"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_margin="10dp" />
 

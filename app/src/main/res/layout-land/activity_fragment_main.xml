@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityFragmentMain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     android:baselineAligned="false"
-    android:id="@+id/activityFragmentMain">
+    android:orientation="horizontal">
 
     <FrameLayout
         android:id="@+id/fragment_frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="2"
-        android:background="@color/colorYelow"
-        />
-    <FrameLayout
-        android:id="@+id/fragment_frame_Two"
+        android:background="@color/colorYelow" />
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:fillViewport="true"
+        android:background="@drawable/my_background_one"
+        android:layout_weight="1">
 
-        android:background="@color/colorBlue"
-        />
-
+        <FrameLayout
+            android:id="@+id/fragment_frame_Two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorBlue" />
+    </ScrollView>
 
 </LinearLayout>

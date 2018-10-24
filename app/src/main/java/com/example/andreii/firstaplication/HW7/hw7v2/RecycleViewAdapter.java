@@ -25,6 +25,7 @@ import com.example.andreii.firstaplication.HW7.hw7v1.AlbumAdapter;
 import com.example.andreii.firstaplication.R;
 import com.squareup.picasso.Picasso;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static android.content.ContentValues.TAG;
@@ -70,9 +71,14 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
     }
 
     @Override
-    public int getItemCount() {
-        return mAlbums.size();
+    public int getItemCount() { return mAlbums.size(); }
+
+    public void filterlist(ArrayList<Album> filteredList){
+        mAlbums=filteredList;
+        notifyDataSetChanged();
     }
+
+
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
 

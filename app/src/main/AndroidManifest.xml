@@ -37,7 +37,7 @@
         <activity android:name=".HW7.hw7v1.SevenActivityFull"></activity>
         <activity android:name=".HW7.hw7v1.SevenActivityAdd"></activity>
         <activity android:name=".HW7.hw7v2.MainFragmentActivity"></activity>
-        <activity android:name=".HW7.hw7v2.FullActivity"></activity>
+        <activity android:name=".HW8.EightMainActivity"></activity>
 
         <!--android:windowSoftInputMode="stateVisible|adjustPan"/>-->
 

@@ -16,6 +16,7 @@ import com.example.andreii.firstaplication.HW5.FiveActivity;
 import com.example.andreii.firstaplication.HW6.SixActivity;
 import com.example.andreii.firstaplication.HW7.hw7v2.MainFragmentActivity;
 import com.example.andreii.firstaplication.HW7.hw7v1.SevenActivityMain;
+import com.example.andreii.firstaplication.HW8.EightMainActivity;
 
 public class MainActivity extends Activity {
     @Override
@@ -32,6 +33,7 @@ public class MainActivity extends Activity {
         Button button6 = findViewById(R.id.button6);
         Button button7 = findViewById(R.id.button7);
         Button button7v2 = findViewById(R.id.button7v2);
+        Button button8 = findViewById(R.id.button8);
         //
 
         button1.setOnClickListener(new View.OnClickListener() {
@@ -110,7 +112,14 @@ public class MainActivity extends Activity {
             }
         });
 
-
+        button8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, EightMainActivity.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.animation_one,R.anim.animation_two);
+            }
+        });
 
 
     }

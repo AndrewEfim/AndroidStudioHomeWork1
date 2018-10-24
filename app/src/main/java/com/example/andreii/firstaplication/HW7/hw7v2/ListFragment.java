@@ -12,6 +12,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,6 +29,7 @@ import com.example.andreii.firstaplication.HW7.comon.Album;
 import com.example.andreii.firstaplication.HW7.comon.MyBase;
 import com.example.andreii.firstaplication.R;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -121,6 +124,25 @@ public class ListFragment extends Fragment implements RecycleViewAdapter.OnItemC
             recycleViewAdapter.notifyDataSetChanged();
         }}
         }
+        EditText search = viewONE.findViewById(R.id.edittext7AFragment);
+        search.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                        filter(s.toString());
+            }
+
+        });
+
         Button buttonAdd = viewONE.findViewById(R.id.newalbumbuttonFragment);
         buttonAdd.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -134,6 +156,19 @@ public class ListFragment extends Fragment implements RecycleViewAdapter.OnItemC
         });
 
         return viewONE;
+    }
+
+    public void filter(String text){
+        ArrayList<Album> filtredList = new ArrayList<>();
+        for(Album album:albums){
+            if(album.getName().toLowerCase().contains(text.toLowerCase())){
+                filtredList.add(album);
+            }
+            if (album.getYear().toLowerCase().contains(text.toLowerCase())){
+                filtredList.add(album);
+            }
+        }
+        recycleViewAdapter.filterlist(filtredList);
     }
 
     @Override
